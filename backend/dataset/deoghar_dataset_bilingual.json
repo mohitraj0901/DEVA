@@ -1,0 +1,636 @@
+{
+  "metadata": {
+    "name_en": "Deoghar Tourism & Pilgrimage Dataset",
+    "name_hi": "देवघर पर्यटन और तीर्थ यात्रा डेटासेट",
+    "version": "2.0",
+    "created": "2026-04-09",
+    "languages": ["English", "Hindi"],
+    "domains": [
+      "Temples",
+      "Water Bodies",
+      "Nature & Peaks",
+      "Logistics",
+      "Facilities",
+      "General Information"
+    ],
+    "purpose": "Bilingual AI Assistant Training - Question Answering System"
+  },
+  "temples": {
+    "en": [
+      {
+        "id": "temple_001",
+        "name": "Baba Baidyanath Temple",
+        "type": "Jyotirlinga",
+        "description": "Baba Baidyanath Temple is one of the 12 sacred Jyotirlingas of Lord Shiva, located at the confluence of Ganga and Subarnarekha rivers in Deoghar.",
+        "location": {
+          "address": "Deoghar, Jharkhand 814113",
+          "latitude": "24.3045",
+          "longitude": "86.6639",
+          "district": "Deoghar",
+          "state": "Jharkhand",
+          "country": "India"
+        },
+        "significance": "One of the 12 Jyotirlingas, extremely significant for Hindu pilgrims seeking blessings of Lord Shiva.",
+        "history": "According to mythology, this temple was established by Divodas, an ancient king. It's mentioned in the Shiva Purana.",
+        "deity": "Lord Shiva",
+        "visiting_info": {
+          "best_time_to_visit": "July-September (Shravani Mela), October-March",
+          "opening_hours": "5:00 AM - 9:00 PM",
+          "entry_fee": "Free",
+          "dress_code": "Conservative dress recommended",
+          "time_required": "2-3 hours"
+        }
+      },
+      {
+        "id": "temple_002",
+        "name": "Basukinath Temple",
+        "type": "Jyotirlinga",
+        "description": "Located in Basuki village near Deoghar, Basukinath is a significant Shiva temple with historical and mythological importance.",
+        "location": {
+          "address": "Basuki Village, Deoghar District, Jharkhand 814160",
+          "latitude": "24.2750",
+          "longitude": "86.8250",
+          "district": "Deoghar",
+          "state": "Jharkhand",
+          "country": "India"
+        },
+        "significance": "An ancient Shiva temple with deep religious significance in Bengal and Jharkhand regions.",
+        "history": "One of the oldest temples in the region, believed to be built during the rule of ancient kings.",
+        "deity": "Lord Shiva",
+        "visiting_info": {
+          "best_time_to_visit": "September-November, February-March",
+          "opening_hours": "6:00 AM - 8:00 PM",
+          "entry_fee": "Free",
+          "dress_code": "Traditional attire preferred",
+          "time_required": "1.5-2 hours"
+        }
+      },
+      {
+        "id": "temple_003",
+        "name": "Tapovan Temple",
+        "type": "Hindu Temple",
+        "description": "Tapovan Temple is located on the banks of the Subarnarekha River and is known for its peaceful and meditative atmosphere.",
+        "location": {
+          "address": "Subarnarekha Riverbank, Deoghar, Jharkhand 814113",
+          "latitude": "24.3100",
+          "longitude": "86.6550",
+          "district": "Deoghar",
+          "state": "Jharkhand",
+          "country": "India"
+        },
+        "significance": "A spiritual center for meditation and devotion, popular with ascetics and sadhus.",
+        "history": "Named after the ancient practice of tapas (meditation), it has been a spiritual retreat for centuries.",
+        "deity": "Lord Shiva",
+        "visiting_info": {
+          "best_time_to_visit": "Year-round, peaceful during monsoons",
+          "opening_hours": "6:00 AM - 10:00 PM",
+          "entry_fee": "Free",
+          "dress_code": "Modest dress recommended",
+          "time_required": "1-2 hours"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "id": "temple_001",
+        "name": "बाबा बैद्यनाथ मंदिर",
+        "type": "ज्योतिर्लिंग",
+        "description": "बाबा बैद्यनाथ मंदिर भगवान शिव के 12 पवित्र ज्योतिर्लिंगों में से एक है, जो देवघर में गंगा और सुवर्णरेखा नदियों के संगम पर स्थित है।",
+        "location": {
+          "address": "देवघर, झारखंड 814113",
+          "latitude": "24.3045",
+          "longitude": "86.6639",
+          "district": "देवघर",
+          "state": "झारखंड",
+          "country": "भारत"
+        },
+        "significance": "12 ज्योतिर्लिंगों में से एक, हिंदू तीर्थयात्रियों के लिए भगवान शिव का आशीर्वाद लेने के लिए अत्यंत महत्वपूर्ण।",
+        "history": "पौराणिक कथाओं के अनुसार, इस मंदिर की स्थापना राजा दिवोदास ने की थी। यह शिव पुराण में वर्णित है।",
+        "deity": "भगवान शिव",
+        "visiting_info": {
+          "best_time_to_visit": "जुलाई-सितंबर (श्रावणी मेला), अक्टूबर-मार्च",
+          "opening_hours": "5:00 AM - 9:00 PM",
+          "entry_fee": "निःशुल्क",
+          "dress_code": "रूढ़िवादी पोशाक की सिफारिश",
+          "time_required": "2-3 घंटे"
+        }
+      },
+      {
+        "id": "temple_002",
+        "name": "बसुकीनाथ मंदिर",
+        "type": "ज्योतिर्लिंग",
+        "description": "देवघर के पास बसुकी गाँव में स्थित, बसुकीनाथ एक ऐतिहासिक और पौराणिक महत्व वाला शिव मंदिर है।",
+        "location": {
+          "address": "बसुकी गाँव, देवघर जिला, झारखंड 814160",
+          "latitude": "24.2750",
+          "longitude": "86.8250",
+          "district": "देवघर",
+          "state": "झारखंड",
+          "country": "भारत"
+        },
+        "significance": "क्षेत्र के प्राचीन शिव मंदिरों में से एक, बंगाल और झारखंड क्षेत्रों में गहरे धार्मिक महत्व के साथ।",
+        "history": "यह क्षेत्र के सबसे पुराने मंदिरों में से एक है, माना जाता है कि इसे प्राचीन राजाओं के शासनकाल में बनवाया गया था।",
+        "deity": "भगवान शिव",
+        "visiting_info": {
+          "best_time_to_visit": "सितंबर-नवंबर, फरवरी-मार्च",
+          "opening_hours": "6:00 AM - 8:00 PM",
+          "entry_fee": "निःशुल्क",
+          "dress_code": "परंपरागत पोशाक पसंद की जाती है",
+          "time_required": "1.5-2 घंटे"
+        }
+      },
+      {
+        "id": "temple_003",
+        "name": "तपोवन मंदिर",
+        "type": "हिंदू मंदिर",
+        "description": "तपोवन मंदिर सुवर्णरेखा नदी के किनारे स्थित है और अपने शांतिपूर्ण और ध्यानपूर्ण वातावरण के लिए जाना जाता है।",
+        "location": {
+          "address": "सुवर्णरेखा नदी किनारा, देवघर, झारखंड 814113",
+          "latitude": "24.3100",
+          "longitude": "86.6550",
+          "district": "देवघर",
+          "state": "झारखंड",
+          "country": "भारत"
+        },
+        "significance": "ध्यान और भक्ति के लिए एक आध्यात्मिक केंद्र, साधुओं और तापसियों के बीच लोकप्रिय।",
+        "history": "तपस (ध्यान) की प्राचीन प्रथा के नाम पर, यह सदियों से एक आध्यात्मिक आश्रय रहा है।",
+        "deity": "भगवान शिव",
+        "visiting_info": {
+          "best_time_to_visit": "वर्ष भर, मानसून के दौरान शांतिपूर्ण",
+          "opening_hours": "6:00 AM - 10:00 PM",
+          "entry_fee": "निःशुल्क",
+          "dress_code": "विनम्र पोशाक की सिफारिश",
+          "time_required": "1-2 घंटे"
+        }
+      }
+    ],
+    "q_and_a": {
+      "en": [
+        {"question": "What is the significance of Baba Baidyanath Temple?", "answer": "Baba Baidyanath Temple is one of the 12 sacred Jyotirlingas of Lord Shiva, making it one of the most important pilgrimage sites for Hindus seeking blessings and spiritual guidance."},
+        {"question": "When is the best time to visit Deoghar temples?", "answer": "The best time is during July-September (Shravani Mela) and October-March. Shravani Mela attracts millions of pilgrims during these months."},
+        {"question": "What is the entry fee for temples in Deoghar?", "answer": "Entry to all major temples in Deoghar, including Baba Baidyanath, Basukinath, and Tapovan, is completely free."},
+        {"question": "What dress code should I follow while visiting temples?", "answer": "Conservative and traditional dress is recommended. Avoid shorts, sleeveless clothing, and revealing attire out of respect for the sacred space."},
+        {"question": "How much time should I spend at Baba Baidyanath Temple?", "answer": "It typically takes 2-3 hours to visit Baba Baidyanath Temple comfortably, including darshan and prayers."},
+        {"question": "What is a Jyotirlinga?", "answer": "A Jyotirlinga is a sacred shrine of Lord Shiva represented by a lingam (symbol). There are 12 Jyotirlingas across India, each with unique spiritual significance."},
+        {"question": "What are the opening hours of Baba Baidyanath Temple?", "answer": "Baba Baidyanath Temple is open from 5:00 AM to 9:00 PM daily."},
+        {"question": "Is Basukinath Temple accessible by public transport?", "answer": "Yes, Basukinath Temple is accessible by local buses and taxis from Deoghar. It is located about 20 km from Deoghar city."},
+        {"question": "What festivals are celebrated at Deoghar temples?", "answer": "The main festival is Shravani Mela (July-September). Other festivals include Mahashivratri, Shivratri Pooja, and Durga Puja."},
+        {"question": "Can I take photographs inside the temples?", "answer": "Photography policies vary. Generally, photography is allowed in outer areas but restricted inside the sanctum sanctorum (main shrine). Check with the temple authorities for specific rules."},
+        {"question": "What is the mythology behind Baba Baidyanath Temple?", "answer": "According to the Shiva Purana, the temple was established by King Divodas. It is believed that Lord Shiva granted blessings to devotees at this sacred location."},
+        {"question": "Are there any facilities for disabled visitors in the temples?", "answer": "Major temples have basic facilities for disabled visitors including ramps and separate entrances. However, facilities vary by temple."},
+        {"question": "What is the best accommodation near Baba Baidyanath Temple?", "answer": "There are numerous Dharamshalas, hotels, and guest houses near the temple ranging from budget to luxury options, especially during Shravani Mela."},
+        {"question": "How crowded is Deoghar during Shravani Mela?", "answer": "Shravani Mela is extremely crowded with millions of pilgrims visiting during July-September. Expect long queues and heavy crowds, especially on weekends."},
+        {"question": "What should I carry when visiting Deoghar temples?", "answer": "Carry light clothing, water bottle, footwear suitable for walking, sun protection, cash (for offerings), and identification. During Shravani Mela, carry less baggage."},
+        {"question": "Is there a specific route to follow while visiting Deoghar temples?", "answer": "Most pilgrims visit Baba Baidyanath Temple first, then Basukinath, and finally Tapovan. This forms a spiritual circuit popular with devotees."},
+        {"question": "What are the age restrictions for temple visits?", "answer": "There are no age restrictions. People of all ages, from infants to elderly, are welcome to visit the temples."},
+        {"question": "Can I perform special pujas at the temples?", "answer": "Yes, special pujas and rituals can be performed at the temples. Contact the temple office for details on fees and availability."},
+        {"question": "What is the distance between Baba Baidyanath and Basukinath temples?", "answer": "Basukinath Temple is approximately 20 km from Baba Baidyanath Temple and can be reached by taxi or bus in about 30-40 minutes."},
+        {"question": "Are there any dietary restrictions for temple visits?", "answer": "While there are no strict dietary restrictions for visiting, it is customary to avoid non-vegetarian food on pilgrimage days. Temple prasad is purely vegetarian."}
+      ],
+      "hi": [
+        {"question": "बाबा बैद्यनाथ मंदिर का महत्व क्या है?", "answer": "बाबा बैद्यनाथ मंदिर भगवान शिव के 12 पवित्र ज्योतिर्लिंगों में से एक है, जो इसे हिंदुओं के लिए आशीर्वाद और आध्यात्मिक मार्गदर्शन के लिए सबसे महत्वपूर्ण तीर्थ स्थलों में से एक बनाता है।"},
+        {"question": "देवघर के मंदिरों में जाने का सबसे अच्छा समय कौन सा है?", "answer": "सबसे अच्छा समय जुलाई-सितंबर (श्रावणी मेला) और अक्टूबर-मार्च है। श्रावणी मेला इन महीनों में लाखों तीर्थयात्रियों को आकर्षित करता है।"},
+        {"question": "देवघर के मंदिरों में प्रवेश शुल्क क्या है?", "answer": "बाबा बैद्यनाथ, बसुकीनाथ और तपोवन सहित सभी प्रमुख मंदिरों में प्रवेश पूरी तरह निःशुल्क है।"},
+        {"question": "मंदिरों का दौरा करते समय मुझे कौन सी ड्रेस कोड का पालन करना चाहिए?", "answer": "पवित्र स्थान के प्रति सम्मान दिखाने के लिए रूढ़िवादी और परंपरागत पोशाक की सिफारिश की जाती है। शॉर्ट्स, बिना आस्तीन के कपड़े और खुलासा पोशाक से बचें।"},
+        {"question": "बाबा बैद्यनाथ मंदिर में कितना समय बिताना चाहिए?", "answer": "आमतौर पर दर्शन और प्रार्थना सहित बाबा बैद्यनाथ मंदिर में आराम से 2-3 घंटे लगते हैं।"},
+        {"question": "ज्योतिर्लिंग क्या है?", "answer": "ज्योतिर्लिंग भगवान शिव का एक पवित्र मंदिर है जिसमें लिंग (प्रतीक) द्वारा प्रतिनिधित्व किया जाता है। भारत भर में 12 ज्योतिर्लिंग हैं, प्रत्येक का अपना अनोखा आध्यात्मिक महत्व है।"},
+        {"question": "बाबा बैद्यनाथ मंदिर के खुलने का समय क्या है?", "answer": "बाबा बैद्यनाथ मंदिर प्रतिदिन सुबह 5:00 AM से रात 9:00 PM तक खुला रहता है।"},
+        {"question": "क्या बसुकीनाथ मंदिर सार्वजनिक परिवहन से पहुंचा जा सकता है?", "answer": "हाँ, बसुकीनाथ मंदिर देवघर से स्थानीय बसों और टैक्सियों द्वारा पहुंचा जा सकता है। यह देवघर शहर से लगभग 20 किमी दूर स्थित है।"},
+        {"question": "देवघर के मंदिरों में कौन से त्यौहार मनाए जाते हैं?", "answer": "मुख्य त्यौहार श्रावणी मेला (जुलाई-सितंबर) है। अन्य त्यौहारों में महाशिवरात्रि, शिवरात्रि पूजा और दुर्गा पूजा शामिल हैं।"},
+        {"question": "क्या मैं मंदिरों के अंदर फोटोग्राफी कर सकता हूँ?", "answer": "फोटोग्राफी की नीतियां अलग-अलग हैं। आमतौर पर बाहरी क्षेत्रों में फोटोग्राफी की अनुमति है लेकिन मुख्य मंदिर में प्रतिबंधित है। विशिष्ट नियमों के लिए मंदिर अधिकारियों से जांचें।"},
+        {"question": "बाबा बैद्यनाथ मंदिर के पीछे की पौराणिक कथा क्या है?", "answer": "शिव पुराण के अनुसार, मंदिर की स्थापना राजा दिवोदास ने की थी। माना जाता है कि भगवान शिव ने इस पवित्र स्थान पर भक्तों को आशीर्वाद दिया था।"},
+        {"question": "क्या मंदिरों में विकलांग आगंतुकों के लिए सुविधाएं हैं?", "answer": "प्रमुख मंदिरों में विकलांग आगंतुकों के लिए रैंप और अलग प्रवेश द्वार सहित बुनियादी सुविधाएं हैं। हालांकि, सुविधाएं मंदिर के अनुसार अलग-अलग हैं।"},
+        {"question": "बाबा बैद्यनाथ मंदिर के पास सर्वश्रेष्ठ आवास कौन सा है?", "answer": "मंदिर के पास कई धर्मशालाएं, होटल और गेस्ट हाउस हैं जो बजट से लेकर लक्जरी विकल्पों तक हैं, विशेषकर श्रावणी मेला के दौरान।"},
+        {"question": "श्रावणी मेला के दौरान देवघर कितना भीड़भाड़ से भरा होता है?", "answer": "श्रावणी मेला में लाखों तीर्थयात्री जुलाई-सितंबर के दौरान देवघर की यात्रा करते हैं। खासकर सप्ताहांत पर लंबी कतारों और भारी भीड़ की उम्मीद करें।"},
+        {"question": "देवघर के मंदिरों का दौरा करते समय मुझे क्या ले जाना चाहिए?", "answer": "हल्के कपड़े, पानी की बोतल, चलने के लिए उपयुक्त जूते, धूप से सुरक्षा, नकद पैसे (चढ़ावे के लिए) और पहचान पत्र ले जाएं। श्रावणी मेला के दौरान कम सामान ले जाएं।"},
+        {"question": "क्या देवघर के मंदिरों का दौरा करने के लिए कोई विशिष्ट मार्ग है?", "answer": "अधिकांश तीर्थयात्री पहले बाबा बैद्यनाथ मंदिर, फिर बसुकीनाथ और अंत में तपोवन का दौरा करते हैं। यह भक्तों के बीच एक लोकप्रिय आध्यात्मिक सर्किट है।"},
+        {"question": "मंदिर के दौरे के लिए कोई आयु प्रतिबंध है?", "answer": "कोई आयु प्रतिबंध नहीं है। सभी उम्र के लोग, शिशुओं से लेकर बुजुर्गों तक, मंदिरों का दौरा करने के लिए स्वागत है।"},
+        {"question": "क्या मैं मंदिरों में विशेष पूजा कर सकता हूँ?", "answer": "हाँ, मंदिरों में विशेष पूजा और अनुष्ठान किए जा सकते हैं। शुल्क और उपलब्धता के विवरण के लिए मंदिर कार्यालय से संपर्क करें।"},
+        {"question": "बाबा बैद्यनाथ और बसुकीनाथ मंदिरों के बीच दूरी क्या है?", "answer": "बसुकीनाथ मंदिर बाबा बैद्यनाथ मंदिर से लगभग 20 किमी दूर है और टैक्सी या बस द्वारा लगभग 30-40 मिनट में पहुंचा जा सकता है।"},
+        {"question": "क्या मंदिर के दौरे के लिए कोई आहार प्रतिबंध हैं?", "answer": "जबकि तीर्थ यात्रा के दिनों में मांसाहारी भोजन से बचना प्रथागत है, कोई सख्त आहार प्रतिबंध नहीं हैं। मंदिर का प्रसाद पूरी तरह शाकाहारी है।"}
+      ]
+    }
+  },
+  "water_bodies": {
+    "en": [
+      {
+        "id": "kund_001",
+        "name": "Shivganga Kund",
+        "type": "Sacred Kund (Pond)",
+        "description": "Shivganga Kund is a sacred pond located in Deoghar with immense religious significance for Hindu pilgrims."
+      },
+      {
+        "id": "kund_002",
+        "name": "Mansarovar Kund",
+        "type": "Sacred Kund (Pond)",
+        "description": "Mansarovar Kund is a sacred water body named after the legendary Mansarovar Lake at Mount Kailash."
+      }
+    ],
+    "hi": [
+      {
+        "id": "kund_001",
+        "name": "शिवगंगा कुंड",
+        "type": "पवित्र कुंड (तालाब)",
+        "description": "शिवगंगा कुंड देवघर में स्थित एक पवित्र तालाब है जिसका हिंदू तीर्थयात्रियों के लिए अत्यधिक धार्मिक महत्व है।"
+      },
+      {
+        "id": "kund_002",
+        "name": "मानसरोवर कुंड",
+        "type": "पवित्र कुंड (तालाब)",
+        "description": "मानसरोवर कुंड एक पवित्र जल निकाय है जिसका नाम कैलाश पर्वत पर प्रसिद्ध मानसरोवर झील के नाम पर रखा गया है।"
+      }
+    ],
+    "q_and_a": {
+      "en": [
+        {"question": "What is the significance of Shivganga Kund?", "answer": "Shivganga Kund is believed to be the sacred confluence of spiritual energies. Pilgrims take ritual baths here to purify themselves and seek blessings."},
+        {"question": "Where is Shivganga Kund located?", "answer": "Shivganga Kund is located within the Baba Baidyanath Temple complex in Deoghar, making it easily accessible to pilgrims."},
+        {"question": "Can I take a bath in Shivganga Kund?", "answer": "Yes, ritual bathing in Shivganga Kund is considered auspicious and is practiced by many pilgrims, especially during Shravani Mela."},
+        {"question": "What is the mythology behind Mansarovar Kund?", "answer": "Mansarovar Kund is named after the legendary Mansarovar Lake at Mount Kailash. It is believed that bathing here provides similar spiritual benefits."},
+        {"question": "Is Mansarovar Kund connected to the real Mansarovar Lake?", "answer": "While named after Mount Kailash's Mansarovar, the Deoghar Mansarovar Kund is a separate sacred water body with its own spiritual significance."},
+        {"question": "What is the best time to visit the Kunds?", "answer": "Early morning (5-7 AM) is the best time to visit for ritual bathing and experiencing the peaceful spiritual atmosphere."},
+        {"question": "Are there facilities near the Kunds?", "answer": "Basic facilities like changing rooms, drinking water, and seating areas are available near both Kunds."},
+        {"question": "Can women take ritual baths in these Kunds?", "answer": "Yes, women are welcome to take ritual baths. However, they may use designated areas during specific timings for privacy and comfort."},
+        {"question": "What rituals are performed at Shivganga Kund?", "answer": "Common rituals include bathing, offering flowers, water libation, and prayers to Lord Shiva."},
+        {"question": "Is the water in these Kunds clean and safe?", "answer": "The water is regularly maintained and considered sacred. However, it's advisable to consult local authorities about water quality before bathing."},
+        {"question": "How deep is Shivganga Kund?", "answer": "Shivganga Kund has varying depths, with shallow areas suitable for bathing and deeper sections in the center."},
+        {"question": "Can I swim in Mansarovar Kund?", "answer": "Mansarovar Kund is primarily for ritual bathing. Swimming is not typically done as it is a sacred religious site."},
+        {"question": "What is the story of Shivganga?", "answer": "According to mythology, Shivganga is believed to be the sacred waters where Lord Shiva himself bathes, bestowing spiritual power to the Kund."},
+        {"question": "How many people visit these Kunds daily?", "answer": "During normal days, hundreds of pilgrims visit. During Shravani Mela, the number increases to thousands daily."},
+        {"question": "Are there any health benefits of bathing in these Kunds?", "answer": "While primarily spiritual, the natural water and minerals are believed to have healing properties by local traditions."},
+        {"question": "Can I bring my children to the Kunds?", "answer": "Yes, children can visit and bathe in the Kunds under adult supervision. The shallow areas are suitable for small children."},
+        {"question": "What should I wear for ritual bathing?", "answer": "Wear traditional swimming attire or loose clothing. Both men and women should dress modestly."},
+        {"question": "Is there a specific mantra or prayer for bathing?", "answer": "While any prayer to Lord Shiva is appropriate, many pilgrims recite 'Om Namah Shivaya' or the Maha Mrityunjaya Mantra."},
+        {"question": "How is the water in the Kunds maintained?", "answer": "Local authorities and temple management regularly maintain water quality and cleanliness of the Kunds."},
+        {"question": "Can pilgrims perform their own rituals at the Kunds?", "answer": "Yes, pilgrims are free to perform their personal prayers, rituals, and offerings at the Kunds as per their beliefs."}
+      ],
+      "hi": [
+        {"question": "शिवगंगा कुंड का महत्व क्या है?", "answer": "शिवगंगा कुंड को आध्यात्मिक ऊर्जाओं का पवित्र संगम माना जाता है। तीर्थयात्री यहाँ अनुष्ठानिक स्नान करते हैं और आशीर्वाद प्राप्त करते हैं।"},
+        {"question": "शिवगंगा कुंड कहाँ स्थित है?", "answer": "शिवगंगा कुंड देवघर में बाबा बैद्यनाथ मंदिर परिसर के भीतर स्थित है, जो इसे तीर्थयात्रियों के लिए आसानी से सुलभ बनाता है।"},
+        {"question": "क्या मैं शिवगंगा कुंड में स्नान कर सकता हूँ?", "answer": "हाँ, शिवगंगा कुंड में अनुष्ठानिक स्नान को शुभ माना जाता है और कई तीर्थयात्री इसे करते हैं, खासकर श्रावणी मेला के दौरान।"},
+        {"question": "मानसरोवर कुंड के पीछे की पौराणिक कथा क्या है?", "answer": "मानसरोवर कुंड का नाम कैलाश पर्वत पर प्रसिद्ध मानसरोवर झील के नाम पर रखा गया है। माना जाता है कि यहाँ स्नान करने से समान आध्यात्मिक लाभ मिलते हैं।"},
+        {"question": "क्या मानसरोवर कुंड वास्तविक मानसरोवर झील से जुड़ा है?", "answer": "जबकि कैलाश के मानसरोवर के नाम पर रखा गया है, देवघर का मानसरोवर कुंड एक अलग पवित्र जल निकाय है जिसका अपना आध्यात्मिक महत्व है।"},
+        {"question": "कुंडों में जाने का सबसे अच्छा समय क्या है?", "answer": "सुबह जल्दी (5-7 AM) अनुष्ठानिक स्नान के लिए और शांतिपूर्ण आध्यात्मिक वातावरण का अनुभव करने के लिए सबसे अच्छा समय है।"},
+        {"question": "कुंडों के पास क्या सुविधाएं हैं?", "answer": "दोनों कुंडों के पास बदलने के कमरे, पीने के पानी और बैठने की जगह जैसी बुनियादी सुविधाएं उपलब्ध हैं।"},
+        {"question": "क्या महिलाएं इन कुंडों में अनुष्ठानिक स्नान कर सकती हैं?", "answer": "हाँ, महिलाएं अनुष्ठानिक स्नान कर सकती हैं। हालांकि, गोपनीयता और आराम के लिए वे निर्धारित समय पर नामित क्षेत्रों का उपयोग कर सकती हैं।"},
+        {"question": "शिवगंगा कुंड में कौन से अनुष्ठान किए जाते हैं?", "answer": "सामान्य अनुष्ठानों में स्नान, फूलों की पेशकश, जल अभिषेक और भगवान शिव को प्रार्थना शामिल है।"},
+        {"question": "क्या इन कुंडों में पानी स्वच्छ और सुरक्षित है?", "answer": "पानी को नियमित रूप से बनाए रखा जाता है और इसे पवित्र माना जाता है। हालांकि, स्नान से पहले स्थानीय अधिकारियों से जल गुणवत्ता के बारे में पूछना सलाह दी जाती है।"},
+        {"question": "शिवगंगा कुंड कितना गहरा है?", "answer": "शिवगंगा कुंड की गहराई अलग-अलग है, स्नान के लिए उपयुक्त उथले क्षेत्र और केंद्र में गहरे भाग हैं।"},
+        {"question": "क्या मैं मानसरोवर कुंड में तैर सकता हूँ?", "answer": "मानसरोवर कुंड मुख्य रूप से अनुष्ठानिक स्नान के लिए है। तैराकी आमतौर पर नहीं की जाती क्योंकि यह एक पवित्र धार्मिक स्थान है।"},
+        {"question": "शिवगंगा की कहानी क्या है?", "answer": "पौराणिक कथाओं के अनुसार, शिवगंगा को वह पवित्र जल माना जाता है जहाँ भगवान शिव स्वयं स्नान करते हैं, कुंड को आध्यात्मिक शक्ति प्रदान करते हैं।"},
+        {"question": "ये कुंड प्रतिदिन कितने लोगों का दौरा करते हैं?", "answer": "सामान्य दिनों में सैकड़ों तीर्थयात्री दर्शन करते हैं। श्रावणी मेला के दौरान, संख्या प्रतिदिन हजारों तक पहुंच जाती है।"},
+        {"question": "क्या इन कुंडों में स्नान के स्वास्थ्य लाभ हैं?", "answer": "जबकि मुख्य रूप से आध्यात्मिक हैं, प्राकृतिक जल और खनिजों को स्थानीय परंपराओं द्वारा उपचारात्मक गुणों में विश्वास किया जाता है।"},
+        {"question": "क्या मैं अपने बच्चों को कुंडों में ला सकता हूँ?", "answer": "हाँ, बच्चे वयस्क निगरानी में कुंडों में दर्शन और स्नान कर सकते हैं। उथले क्षेत्र छोटे बच्चों के लिए उपयुक्त हैं।"},
+        {"question": "अनुष्ठानिक स्नान के लिए मुझे क्या पहनना चाहिए?", "answer": "परंपरागत तैराकी पोशाक या ढीले कपड़े पहनें। पुरुष और महिला दोनों को विनम्रतापूर्वक पोशाक पहननी चाहिए।"},
+        {"question": "क्या स्नान के लिए कोई विशिष्ट मंत्र या प्रार्थना है?", "answer": "जबकि भगवान शिव को कोई भी प्रार्थना उपयुक्त है, कई तीर्थयात्री 'ॐ नमः शिवाय' या महामृत्युंजय मंत्र का जाप करते हैं।"},
+        {"question": "कुंडों में पानी को कैसे बनाए रखा जाता है?", "answer": "स्थानीय अधिकारी और मंदिर प्रबंधन नियमित रूप से कुंडों की जल गुणवत्ता और स्वच्छता बनाए रखते हैं।"},
+        {"question": "क्या तीर्थयात्री कुंडों में अपने व्यक्तिगत अनुष्ठान कर सकते हैं?", "answer": "हाँ, तीर्थयात्री अपनी मान्यताओं के अनुसार कुंडों में व्यक्तिगत प्रार्थनाएं, अनुष्ठान और पूजा करने के लिए स्वतंत्र हैं।"}
+      ]
+    }
+  },
+  "nature_and_peaks": {
+    "en": [
+      {
+        "id": "peak_001",
+        "name": "Trikut Pahar",
+        "type": "Mountain/Peak",
+        "description": "Trikut Pahar is a sacred mountain peak located near Deoghar with immense religious and scenic importance."
+      },
+      {
+        "id": "peak_002",
+        "name": "Nandan Pahar",
+        "type": "Mountain/Peak",
+        "description": "Nandan Pahar is a beautiful mountain known for its lush vegetation and scenic beauty."
+      }
+    ],
+    "hi": [
+      {
+        "id": "peak_001",
+        "name": "त्रिकुट पहाड़",
+        "type": "पर्वत/शिखर",
+        "description": "त्रिकुट पहाड़ देवघर के पास एक पवित्र पर्वत शिखर है जिसका अत्यधिक धार्मिक और दृश्य महत्व है।"
+      },
+      {
+        "id": "peak_002",
+        "name": "नंदन पहाड़",
+        "type": "पर्वत/शिखर",
+        "description": "नंदन पहाड़ अपनी हरी-भरी वनस्पति और सुंदर नजारों के लिए जाना जाता है।"
+      }
+    ],
+    "q_and_a": {
+      "en": [
+        {"question": "What is the significance of Trikut Pahar?", "answer": "Trikut Pahar is believed to be a sacred mountain where Lord Shiva resides. It holds immense spiritual significance for Hindu pilgrims."},
+        {"question": "How tall is Trikut Pahar?", "answer": "Trikut Pahar stands at approximately 389 meters above sea level, making it a moderate trekking destination."},
+        {"question": "Is there a trekking path to the top of Trikut Pahar?", "answer": "Yes, there are well-defined trekking trails leading to the top of Trikut Pahar, suitable for both beginners and experienced trekkers."},
+        {"question": "How long does it take to trek Trikut Pahar?", "answer": "The trek typically takes 2-3 hours depending on your fitness level and pace."},
+        {"question": "What is the best time to trek Trikut Pahar?", "answer": "October to March is the best time, when the weather is cool and pleasant."},
+        {"question": "Are there any temples on Trikut Pahar?", "answer": "Yes, there are small temples and shrines dedicated to Lord Shiva on the mountain."},
+        {"question": "What flora and fauna can be found at Trikut Pahar?", "answer": "The mountain is home to various species of trees, plants, birds, and small animals typical of the region."},
+        {"question": "Is Trikut Pahar family-friendly for trekking?", "answer": "Yes, the trek is relatively easy and suitable for families with children and elderly people."},
+        {"question": "Can I visit Trikut Pahar during monsoons?", "answer": "While possible, monsoon trekking can be slippery and risky. It is safer to visit during dry seasons."},
+        {"question": "What should I carry while trekking Trikut Pahar?", "answer": "Carry water, snacks, sunscreen, hat, comfortable shoes, light clothing, and a basic first aid kit."},
+        {"question": "Is there food and water available on the trekking path?", "answer": "Limited facilities are available. It's advisable to carry your own water and snacks."},
+        {"question": "Can I see the entire Deoghar city from Trikut Pahar top?", "answer": "Yes, from the top, you get panoramic views of Deoghar, surrounding villages, and the river valleys."},
+        {"question": "Is there entry fee for Trikut Pahar?", "answer": "No, Trikut Pahar is open to visitors free of charge."},
+        {"question": "Are there guides available for Trikut Pahar trekking?", "answer": "Yes, local guides are available at the base. Hiring a guide is recommended for first-time visitors."},
+        {"question": "What is the mythology behind Trikut Pahar?", "answer": "According to legend, Trikut Pahar was the meditation spot of Lord Shiva and holds sacred significance in Hindu mythology."},
+        {"question": "How do I reach Trikut Pahar from Deoghar?", "answer": "Trikut Pahar is approximately 5-7 km from Deoghar city and can be reached by taxi, local bus, or car."},
+        {"question": "Is Nandan Pahar connected to Trikut Pahar?", "answer": "While both are mountains in Deoghar, they are separate peaks. Nandan Pahar is roughly 10 km from Trikut Pahar."},
+        {"question": "What is special about Nandan Pahar?", "answer": "Nandan Pahar is known for its lush green vegetation, natural beauty, and serene environment suitable for nature walks."},
+        {"question": "Can I camp on Trikut Pahar?", "answer": "Camping is generally not permitted due to the religious significance of the site. Day visits are recommended."},
+        {"question": "What is the difficulty level of Trikut Pahar trek?", "answer": "The trek is classified as easy to moderate, suitable for people of average fitness level."}
+      ],
+      "hi": [
+        {"question": "त्रिकुट पहाड़ का महत्व क्या है?", "answer": "त्रिकुट पहाड़ को एक पवित्र पर्वत माना जाता है जहाँ भगवान शिव निवास करते हैं। यह हिंदू तीर्थयात्रियों के लिए अत्यधिक आध्यात्मिक महत्व रखता है।"},
+        {"question": "त्रिकुट पहाड़ की ऊंचाई कितनी है?", "answer": "त्रिकुट पहाड़ समुद्र तल से लगभग 389 मीटर ऊँचा है, जो इसे एक मध्यम ट्रेकिंग गंतव्य बनाता है।"},
+        {"question": "क्या त्रिकुट पहाड़ के शीर्ष तक ट्रेकिंग पथ है?", "answer": "हाँ, त्रिकुट पहाड़ के शीर्ष तक अच्छी तरह परिभाषित ट्रेकिंग पथ हैं, जो शुरुआती और अनुभवी दोनों ट्रेकर्स के लिए उपयुक्त हैं।"},
+        {"question": "त्रिकुट पहाड़ की ट्रेकिंग में कितना समय लगता है?", "answer": "ट्रेक आमतौर पर आपकी फिटनेस और गति के आधार पर 2-3 घंटे लगते हैं।"},
+        {"question": "त्रिकुट पहाड़ की ट्रेकिंग के लिए सबसे अच्छा समय क्या है?", "answer": "अक्टूबर से मार्च सबसे अच्छा समय है, जब मौसम ठंडा और सुखद होता है।"},
+        {"question": "क्या त्रिकुट पहाड़ पर कोई मंदिर हैं?", "answer": "हाँ, पहाड़ पर भगवान शिव को समर्पित छोटे मंदिर और मंदिर हैं।"},
+        {"question": "त्रिकुट पहाड़ पर क्या वनस्पति और जीवन जंतु पाए जाते हैं?", "answer": "पहाड़ क्षेत्र की विभिन्न प्रजातियों के पेड़ों, पौधों, पक्षियों और छोटे जानवरों का घर है।"},
+        {"question": "क्या त्रिकुट पहाड़ की ट्रेकिंग परिवार के अनुकूल है?", "answer": "हाँ, ट्रेक अपेक्षाकृत आसान है और बच्चों और बुजुर्गों वाले परिवारों के लिए उपयुक्त है।"},
+        {"question": "क्या मैं मानसून के दौरान त्रिकुट पहाड़ का दौरा कर सकता हूँ?", "answer": "हालांकि संभव है, मानसून की ट्रेकिंग फिसलन और जोखिम भरी हो सकती है। शुष्क मौसम में जाना सुरक्षित है।"},
+        {"question": "त्रिकुट पहाड़ की ट्रेकिंग के दौरान मुझे क्या ले जाना चाहिए?", "answer": "पानी, स्नैक्स, सनस्क्रीन, टोपी, आरामदायक जूते, हल्के कपड़े और बुनियादी प्राथमिक चिकित्सा किट ले जाएं।"},
+        {"question": "क्या ट्रेकिंग पथ पर भोजन और पानी उपलब्ध हैं?", "answer": "सीमित सुविधाएं उपलब्ध हैं। अपना पानी और स्नैक्स ले जाना सलाह दी जाती है।"},
+        {"question": "क्या मैं त्रिकुट पहाड़ के शीर्ष से पूरे देवघर शहर को देख सकता हूँ?", "answer": "हाँ, शीर्ष से, आपको देवघर, आसपास के गाँवों और नदी घाटियों के मनोरम दृश्य मिलते हैं।"},
+        {"question": "क्या त्रिकुट पहाड़ में प्रवेश शुल्क है?", "answer": "नहीं, त्रिकुट पहाड़ आगंतुकों के लिए निःशुल्क खुला है।"},
+        {"question": "क्या त्रिकुट पहाड़ ट्रेकिंग के लिए गाइड उपलब्ध हैं?", "answer": "हाँ, स्थानीय गाइड आधार पर उपलब्ध हैं। पहली बार आने वाले आगंतुकों के लिए गाइड नियुक्त करना की सिफारिश की जाती है।"},
+        {"question": "त्रिकुट पहाड़ के पीछे की पौराणिक कथा क्या है?", "answer": "किंवदंती के अनुसार, त्रिकुट पहाड़ भगवान शिव का ध्यान स्थल था और हिंदू पौराणिक कथाओं में पवित्र महत्व रखता है।"},
+        {"question": "मैं देवघर से त्रिकुट पहाड़ तक कैसे पहुंच सकता हूँ?", "answer": "त्रिकुट पहाड़ देवघर शहर से लगभग 5-7 किमी दूर है और टैक्सी, स्थानीय बस या कार से पहुंचा जा सकता है।"},
+        {"question": "क्या नंदन पहाड़ त्रिकुट पहाड़ से जुड़ा हुआ है?", "answer": "जबकि दोनों देवघर के पर्वत हैं, वे अलग-अलग शिखर हैं। नंदन पहाड़ त्रिकुट पहाड़ से लगभग 10 किमी दूर है।"},
+        {"question": "नंदन पहाड़ क्या विशेष है?", "answer": "नंदन पहाड़ अपनी हरी-भरी वनस्पति, प्राकृतिक सौंदर्य और शांतिपूर्ण पर्यावरण के लिए जाना जाता है।"},
+        {"question": "क्या मैं त्रिकुट पहाड़ पर शिविर लगा सकता हूँ?", "answer": "स्थल के धार्मिक महत्व के कारण शिविर लगाना आमतौर पर अनुमत नहीं है। दिन की यात्रा की सिफारिश की जाती है।"},
+        {"question": "त्रिकुट पहाड़ ट्रेक की कठिनाई का स्तर क्या है?", "answer": "ट्रेक को आसान से मध्यम के रूप में वर्गीकृत किया गया है, जो औसत फिटनेस स्तर के लोगों के लिए उपयुक्त है।"}
+      ]
+    }
+  },
+  "logistics": {
+    "en": [
+      {
+        "id": "logistics_001",
+        "name": "Deoghar Airport / Darbhanga Airport",
+        "type": "Airport"
+      },
+      {
+        "id": "logistics_002",
+        "name": "Deoghar Railway Station",
+        "type": "Railway Station"
+      },
+      {
+        "id": "logistics_003",
+        "name": "Travel Agencies in Deoghar",
+        "type": "Travel Agency"
+      }
+    ],
+    "hi": [
+      {
+        "id": "logistics_001",
+        "name": "देवघर हवाई अड्डा / दरभंगा हवाई अड्डा",
+        "type": "हवाई अड्डा"
+      },
+      {
+        "id": "logistics_002",
+        "name": "देवघर रेलवे स्टेशन",
+        "type": "रेलवे स्टेशन"
+      },
+      {
+        "id": "logistics_003",
+        "name": "देवघर में यात्रा एजेंसियाएं",
+        "type": "यात्रा एजेंसी"
+      }
+    ],
+    "q_and_a": {
+      "en": [
+        {"question": "What is the nearest airport to Deoghar?", "answer": "The nearest commercial airport is Darbhanga Airport, approximately 80 km from Deoghar, followed by Patna Airport at about 250 km."},
+        {"question": "How do I reach Deoghar from Darbhanga Airport?", "answer": "From Darbhanga Airport, you can hire a taxi, book a rental car, or take a bus to Deoghar, which takes about 2-3 hours."},
+        {"question": "Are there direct flights to Deoghar?", "answer": "There are no direct flights to Deoghar. You need to fly to nearby cities like Patna or Darbhanga and then drive to Deoghar."},
+        {"question": "What is the best train to reach Deoghar?", "answer": "Several trains connect to Deoghar. The most popular are Rajendra Express, Poorva Express, and local trains to Deoghar junction."},
+        {"question": "Which cities have direct train connections to Deoghar?", "answer": "Major cities like Delhi, Kolkata, Varanasi, Patna, and other cities in East India have direct or connecting trains to Deoghar."},
+        {"question": "How far is Deoghar Railway Station from Baba Baidyanath Temple?", "answer": "Deoghar Railway Station is about 3-4 km from Baba Baidyanath Temple, approximately 10-15 minutes by auto-rickshaw."},
+        {"question": "Are there auto-rickshaws available at Deoghar Railway Station?", "answer": "Yes, auto-rickshaws are readily available at the railway station. They charge fixed rates to major temple areas."},
+        {"question": "Can I book a taxi from the railway station?", "answer": "Yes, taxis can be booked from the railway station counter or through pre-arranged services."},
+        {"question": "What is the rental car cost for Deoghar?", "answer": "Car rental costs vary from 1,000 to 3,000 INR per day depending on vehicle type and duration."},
+        {"question": "Are there good travel agencies in Deoghar for tour packages?", "answer": "Yes, several travel agencies in Deoghar offer pilgrimage packages, accommodation, and local tour services."},
+        {"question": "What is the cost of a typical Deoghar tour package?", "answer": "Tour packages range from 5,000 to 25,000 INR per person depending on duration and inclusions."},
+        {"question": "How long does it take to travel from Delhi to Deoghar by train?", "answer": "It takes approximately 18-24 hours depending on the train and its schedule."},
+        {"question": "Is there a bus service from Patna to Deoghar?", "answer": "Yes, regular buses operate between Patna and Deoghar, taking about 7-8 hours."},
+        {"question": "What is the road distance from Deoghar to Varanasi?", "answer": "Deoghar is approximately 300 km from Varanasi, about 6-7 hours by car."},
+        {"question": "Can I drive my own vehicle to Deoghar?", "answer": "Yes, Deoghar is well-connected by road. You can drive from major cities, but parking can be challenging during peak seasons."},
+        {"question": "Are there petrol pumps near Deoghar temples?", "answer": "Yes, several petrol pumps are available in and around Deoghar city."},
+        {"question": "Do buses have basic amenities?", "answer": "Yes, long-distance buses have basic amenities like seats, fans, and sometimes AC options. Some premium buses offer better facilities."},
+        {"question": "What is the best season to travel to Deoghar?", "answer": "October to March is the best season with pleasant weather, though July-September is peak pilgrimage season."},
+        {"question": "Are there any baggage restrictions on trains to Deoghar?", "answer": "Most trains allow reasonable baggage. Check with your train operator for specific weight limits."},
+        {"question": "Can I cancel my train ticket to Deoghar?", "answer": "Yes, ticket cancellations are allowed with applicable charges depending on the cancellation policy of the railway."}
+      ],
+      "hi": [
+        {"question": "देवघर का निकटतम हवाई अड्डा कौन सा है?", "answer": "निकटतम वाणिज्यिक हवाई अड्डा दरभंगा हवाई अड्डा है, जो देवघर से लगभग 80 किमी दूर है, उसके बाद पटना हवाई अड्डा लगभग 250 किमी दूर है।"},
+        {"question": "मैं दरभंगा हवाई अड्डे से देवघर कैसे पहुंचूं?", "answer": "दरभंगा हवाई अड्डे से, आप टैक्सी किराए पर ले सकते हैं, कार किराए पर बुक कर सकते हैं, या देवघर की बस ले सकते हैं, जो लगभग 2-3 घंटे लगते हैं।"},
+        {"question": "क्या देवघर के लिए सीधी उड़ानें हैं?", "answer": "देवघर के लिए कोई सीधी उड़ान नहीं हैं। आपको पटना या दरभंगा जैसे निकटवर्ती शहरों में उड़ान भरनी होगी, फिर देवघर ड्राइव करना होगा।"},
+        {"question": "देवघर तक पहुंचने के लिए सबसे अच्छी ट्रेन कौन सी है?", "answer": "कई ट्रेनें देवघर से जुड़ी हुई हैं। सबसे लोकप्रिय हैं राजेंद्र एक्सप्रेस, पूर्वा एक्सप्रेस और देवघर जंक्शन की स्थानीय ट्रेनें।"},
+        {"question": "किन शहरों के पास देवघर के लिए सीधे ट्रेन कनेक्शन हैं?", "answer": "दिल्ली, कोलकाता, वाराणसी, पटना और पूर्वी भारत के अन्य शहरों जैसे प्रमुख शहरों के पास देवघर के लिए सीधी या जुड़ी ट्रेनें हैं।"},
+        {"question": "देवघर रेलवे स्टेशन बाबा बैद्यनाथ मंदिर से कितनी दूर है?", "answer": "देवघर रेलवे स्टेशन बाबा बैद्यनाथ मंदिर से लगभग 3-4 किमी दूर है, ऑटो-रिक्शा द्वारा लगभग 10-15 मिनट।"},
+        {"question": "क्या देवघर रेलवे स्टेशन पर ऑटो-रिक्शा उपलब्ध हैं?", "answer": "हाँ, ऑटो-रिक्शा रेलवे स्टेशन पर आसानी से उपलब्ध हैं। वे प्रमुख मंदिर क्षेत्रों तक निश्चित दरें लेते हैं।"},
+        {"question": "क्या मैं रेलवे स्टेशन से टैक्सी बुक कर सकता हूँ?", "answer": "हाँ, रेलवे स्टेशन काउंटर से या पूर्व-व्यवस्थित सेवाओं के माध्यम से टैक्सी बुक की जा सकती है।"},
+        {"question": "देवघर के लिए किराए पर कार की लागत क्या है?", "answer": "कार किराए की लागत वाहन के प्रकार और अवधि के आधार पर 1,000 से 3,000 रुपये प्रति दिन है।"},
+        {"question": "क्या देवघर में टूर पैकेजों के लिए अच्छी यात्रा एजेंसियां हैं?", "answer": "हाँ, देवघर में कई यात्रा एजेंसियाएं तीर्थ पैकेज, आवास और स्थानीय पर्यटन सेवाएं प्रदान करती हैं।"},
+        {"question": "देवघर टूर पैकेज की विशिष्ट लागत क्या है?", "answer": "टूर पैकेज अवधि और समावेशन के आधार पर प्रति व्यक्ति 5,000 से 25,000 रुपये तक हैं।"},
+        {"question": "ट्रेन द्वारा दिल्ली से देवघर तक की यात्रा में कितना समय लगता है?", "answer": "ट्रेन और इसकी अनुसूची के आधार पर लगभग 18-24 घंटे लगते हैं।"},
+        {"question": "क्या पटना से देवघर तक बस सेवा है?", "answer": "हाँ, पटना और देवघर के बीच नियमित बसें चलती हैं, लगभग 7-8 घंटे का समय लगता है।"},
+        {"question": "देवघर से वाराणसी की सड़क दूरी क्या है?", "answer": "देवघर वाराणसी से लगभग 300 किमी दूर है, कार से लगभग 6-7 घंटे।"},
+        {"question": "क्या मैं अपना वाहन देवघर ड्राइव कर सकता हूँ?", "answer": "हाँ, देवघर सड़क द्वारा अच्छी तरह जुड़ा हुआ है। आप प्रमुख शहरों से ड्राइव कर सकते हैं, लेकिन पीक सीजन में पार्किंग चुनौतीपूर्ण हो सकती है।"},
+        {"question": "क्या देवघर मंदिरों के पास पेट्रोल पंप हैं?", "answer": "हाँ, देवघर शहर और आसपास कई पेट्रोल पंप उपलब्ध हैं।"},
+        {"question": "क्या बसों के पास बुनियादी सुविधाएं हैं?", "answer": "हाँ, लंबी दूरी की बसों के पास सीटें, पंखे और कभी-कभी AC विकल्प हैं। कुछ प्रीमियम बसें बेहतर सुविधाएं प्रदान करती हैं।"},
+        {"question": "देवघर की यात्रा के लिए सबसे अच्छा मौसम कौन सा है?", "answer": "अक्टूबर से मार्च सुखद मौसम के साथ सबसे अच्छा समय है, हालांकि जुलाई-सितंबर पीक तीर्थ यात्रा का मौसम है।"},
+        {"question": "क्या देवघर के लिए ट्रेनों पर सामान प्रतिबंध हैं?", "answer": "अधिकांश ट्रेनें उचित सामान की अनुमति देती हैं। विशिष्ट वजन सीमा के लिए अपने ट्रेन ऑपरेटर से जांचें।"},
+        {"question": "क्या मैं देवघर के लिए अपनी ट्रेन टिकट रद्द कर सकता हूँ?", "answer": "हाँ, रेलवे की रद्दीकरण नीति के आधार पर लागू शुल्क के साथ टिकट रद्दीकरण की अनुमति है।"}
+      ]
+    }
+  },
+  "facilities": {
+    "en": [
+      {
+        "id": "facility_001",
+        "name": "Dharamshala Accommodations",
+        "type": "Religious Lodging"
+      },
+      {
+        "id": "facility_002",
+        "name": "Hotels in Deoghar",
+        "type": "Hotel"
+      },
+      {
+        "id": "facility_003",
+        "name": "Peda Shops & Food Vendors",
+        "type": "Food & Prasad"
+      },
+      {
+        "id": "facility_004",
+        "name": "Public Facilities",
+        "type": "Public Toilet"
+      }
+    ],
+    "hi": [
+      {
+        "id": "facility_001",
+        "name": "धर्मशाला आवास",
+        "type": "धार्मिक आवास"
+      },
+      {
+        "id": "facility_002",
+        "name": "देवघर में होटल",
+        "type": "होटल"
+      },
+      {
+        "id": "facility_003",
+        "name": "पेड़ा की दुकानें और खाद्य विक्रेता",
+        "type": "खाद्य और प्रसाद"
+      },
+      {
+        "id": "facility_004",
+        "name": "सार्वजनिक सुविधाएं",
+        "type": "सार्वजनिक शौचालय"
+      }
+    ],
+    "q_and_a": {
+      "en": [
+        {"question": "What is a Dharamshala?", "answer": "A Dharamshala is a religious guesthouse offering basic, affordable accommodation to pilgrims and travelers, often with community dining."},
+        {"question": "What are the costs of staying in a Dharamshala?", "answer": "Dharamshala costs typically range from 300 to 800 INR per night, offering highly affordable accommodation for pilgrims."},
+        {"question": "Do Dharamshalas provide food?", "answer": "Yes, most Dharamshalas provide vegetarian food (breakfast, lunch, dinner) as part of their accommodation package."},
+        {"question": "Are there luxury hotels in Deoghar?", "answer": "Yes, Deoghar has several 3-4 star and luxury hotels offering modern amenities, though they are more expensive than Dharamshalas."},
+        {"question": "What is the average cost of hotels in Deoghar?", "answer": "Hotel costs range from 1,500 to 5,000+ INR per night depending on the star rating and facilities."},
+        {"question": "Can I book hotels online for Deoghar?", "answer": "Yes, most hotels can be booked through online travel portals, hotel websites, or by direct contact."},
+        {"question": "What is Deoghar Peda famous for?", "answer": "Deoghar Peda is a famous sweet treat made from milk and cardamom, known for its unique texture and flavor from the region."},
+        {"question": "Where can I buy original Deoghar Peda?", "answer": "Authentic Deoghar Peda is available at numerous shops near the temples and in the market areas of Deoghar."},
+        {"question": "How much does Deoghar Peda cost?", "answer": "Deoghar Peda ranges from 100 to 400 INR per kg depending on quality and the shop."},
+        {"question": "Can I buy Peda to take home?", "answer": "Yes, packaged Peda is available for transport. Ensure proper packing to maintain freshness during travel."},
+        {"question": "What other local foods are available in Deoghar?", "answer": "Popular local foods include Chikhalwali, Sattu, Litti-Chokha, and various sweets specific to Jharkhand cuisine."},
+        {"question": "Are there restaurants in Deoghar?", "answer": "Yes, there are vegetarian restaurants, small eateries, and food stalls throughout Deoghar catering to pilgrims and tourists."},
+        {"question": "Is drinking water available throughout Deoghar?", "answer": "Yes, drinking water is readily available through municipal supply, shops, and most accommodations."},
+        {"question": "Are there clean public toilets in Deoghar?", "answer": "Yes, especially near the temples, there are public toilet facilities maintained for pilgrims and visitors."},
+        {"question": "Do hotels provide WiFi and modern facilities?", "answer": "Most mid-range and luxury hotels provide WiFi, AC, hot water, and other modern amenities. Budget accommodations may have limited facilities."},
+        {"question": "Can I get medical assistance in Deoghar?", "answer": "Yes, there are hospitals, clinics, and medical shops Throughout Deoghar for emergency medical needs."},
+        {"question": "Are there ATMs and banks in Deoghar?", "answer": "Yes, ATMs and banks are available in central areas of Deoghar for cash withdrawal and financial services."},
+        {"question": "What should I expect in terms of accommodation during Shravani Mela?", "answer": "During Shravani Mela, accommodations are heavily booked. Expect higher prices, crowded conditions, and need for advance booking."},
+        {"question": "Can families with children find suitable accommodation?", "answer": "Yes, family rooms and child-friendly facilities are available in hotels and some Dharamshalas."},
+        {"question": "Are there any special dietary accommodations for vegetarians?", "answer": "Yes, being a pilgrimage site, Deoghar primarily offers vegetarian food, making it easy for vegetarian travelers."}
+      ],
+      "hi": [
+        {"question": "धर्मशाला क्या है?", "answer": "धर्मशाला एक धार्मिक अतिथि गृह है जो तीर्थयात्रियों और यात्रियों को बुनियादी, सस्ते आवास प्रदान करता है, अक्सर सामुदायिक भोजन के साथ।"},
+        {"question": "धर्मशाला में रहने की लागत क्या है?", "answer": "धर्मशाला की लागत आमतौर पर 300 से 800 रुपये प्रति रात है, तीर्थयात्रियों के लिए अत्यंत सस्ते आवास प्रदान करते हैं।"},
+        {"question": "क्या धर्मशालाएं भोजन प्रदान करती हैं?", "answer": "हाँ, अधिकांश धर्मशालाएं शाकाहारी भोजन (नाश्ता, दोपहर का भोजन, रात का खाना) अपने आवास पैकेज के भाग के रूप में प्रदान करती हैं।"},
+        {"question": "क्या देवघर में लक्जरी होटल हैं?", "answer": "हाँ, देवघर में कई 3-4 सितारा और लक्जरी होटल हैं जो आधुनिक सुविधाएं प्रदान करते हैं, हालांकि वे धर्मशालाओं से अधिक महंगे हैं।"},
+        {"question": "देवघर में होटल की औसत लागत क्या है?", "answer": "होटल की लागत सितारा रेटिंग और सुविधाओं के आधार पर 1,500 से 5,000+ रुपये प्रति रात है।"},
+        {"question": "क्या मैं देवघर के लिए होटल ऑनलाइन बुक कर सकता हूँ?", "answer": "हाँ, अधिकांश होटल ऑनलाइन यात्रा पोर्टलों, होटल वेबसाइटों या सीधे संपर्क के माध्यम से बुक किए जा सकते हैं।"},
+        {"question": "देवघर का पेड़ा किसलिए प्रसिद्ध है?", "answer": "देवघर का पेड़ा दूध और इलायची से बना एक प्रसिद्ध मिठाई है, जो इस क्षेत्र की अपनी अनोखी बनावट और स्वाद के लिए जाना जाता है।"},
+        {"question": "मैं असली देवघर पेड़ा कहाँ से खरीद सकता हूँ?", "answer": "प्रामाणिक देवघर पेड़ा मंदिरों के पास और देवघर के बाज़ार क्षेत्रों में कई दुकानों पर उपलब्ध है।"},
+        {"question": "देवघर पेड़ा की कीमत क्या है?", "answer": "देवघर पेड़ा गुणवत्ता और दुकान के आधार पर 100 से 400 रुपये प्रति किलो है।"},
+        {"question": "क्या मैं पेड़ा घर ले जाने के लिए खरीद सकता हूँ?", "answer": "हाँ, पैकेज्ड पेड़ा परिवहन के लिए उपलब्ध है। यात्रा के दौरान ताजगी बनाए रखने के लिए उचित पैकिंग सुनिश्चित करें।"},
+        {"question": "देवघर में अन्य स्थानीय खाद्य पदार्थ कौन से हैं?", "answer": "लोकप्रिय स्थानीय खाद्य पदार्थों में चिखलवाली, सत्तू, लिट्टी-चोखा और झारखंड के व्यंजनों के लिए विभिन्न मिठाइयां शामिल हैं।"},
+        {"question": "क्या देवघर में रेस्तरां हैं?", "answer": "हाँ, देवघर भर में शाकाहारी रेस्तरां, छोटी खान-पान की दुकानें और खाद्य स्टॉल हैं जो तीर्थयात्रियों और पर्यटकों को सेवा प्रदान करते हैं।"},
+        {"question": "क्या पीने का पानी पूरे देवघर में उपलब्ध है?", "answer": "हाँ, पीने का पानी नगरपालिका आपूर्ति, दुकानों और अधिकांश आवास के माध्यम से आसानी से उपलब्ध है।"},
+        {"question": "क्या देवघर में स्वच्छ सार्वजनिक शौचालय हैं?", "answer": "हाँ, विशेषकर मंदिरों के पास, तीर्थयात्रियों और आगंतुकों के लिए सार्वजनिक शौचालय सुविधाएं बनाई गई हैं।"},
+        {"question": "क्या होटल WiFi और आधुनिक सुविधाएं प्रदान करते हैं?", "answer": "अधिकांश मध्य-स्तरीय और लक्जरी होटल WiFi, AC, गर्म पानी और अन्य आधुनिक सुविधाएं प्रदान करते हैं। बजट आवास में सीमित सुविधाएं हो सकती हैं।"},
+        {"question": "क्या मुझे देवघर में चिकित्सा सहायता मिल सकती है?", "answer": "हाँ, देवघर भर में आपातकालीन चिकित्सा आवश्यकताओं के लिए अस्पताल, क्लीनिक और चिकित्सा दुकानें उपलब्ध हैं।"},
+        {"question": "क्या देवघर में ATM और बैंक हैं?", "answer": "हाँ, देवघर के केंद्रीय क्षेत्रों में नकद निकासी और वित्तीय सेवाओं के लिए ATM और बैंक उपलब्ध हैं।"},
+        {"question": "श्रावणी मेला के दौरान आवास के मामले में मुझे क्या उम्मीद करनी चाहिए?", "answer": "श्रावणी मेला के दौरान, आवास भारी मात्रा में बुक हो जाता है। उच्च कीमतें, भीड़ वाली स्थितियां और अग्रिम बुकिंग की आवश्यकता की उम्मीद करें।"},
+        {"question": "क्या बच्चों वाले परिवारों को उपयुक्त आवास मिल सकता है?", "answer": "हाँ, परिवार के कमरे और बच्चे-अनुकूल सुविधाएं होटलों और कुछ धर्मशालाओं में उपलब्ध हैं।"},
+        {"question": "क्या शाकाहारियों के लिए कोई विशेष आहार सुविधाएं हैं?", "answer": "हाँ, एक तीर्थ स्थल होने के कारण, देवघर मुख्य रूप से शाकाहारी भोजन प्रदान करता है, जो शाकाहारी यात्रियों के लिए आसान है।"}
+      ]
+    }
+  },
+  "general_information": {
+    "en": [
+      {
+        "id": "general_001",
+        "topic": "History and Mythology of Jyotirlingas"
+      },
+      {
+        "id": "general_002",
+        "topic": "Shravani Mela - The Grand Pilgrimage Festival"
+      },
+      {
+        "id": "general_003",
+        "topic": "Deoghar City and Its Spiritual Significance"
+      }
+    ],
+    "hi": [
+      {
+        "id": "general_001",
+        "topic": "ज्योतिर्लिंगों का इतिहास और पौराणिक कथा"
+      },
+      {
+        "id": "general_002",
+        "topic": "श्रावणी मेला - महान तीर्थ यात्रा पर्व"
+      },
+      {
+        "id": "general_003",
+        "topic": "देवघर शहर और इसका आध्यात्मिक महत्व"
+      }
+    ],
+    "q_and_a": {
+      "en": [
+        {"question": "What is a Jyotirlinga?", "answer": "A Jyotirlinga is a sacred shrine of Lord Shiva, represented by a lingam (the cosmic symbol of divine energy). It marks the manifestation of Lord Shiva in his fundamental form of light and power."},
+        {"question": "How many Jyotirlingas are there in India?", "answer": "There are 12 sacred Jyotirlingas spread across different regions of India, each with unique religious significance and legends."},
+        {"question": "Which are the 12 Jyotirlingas in India?", "answer": "The 12 Jyotirlingas are: Somnath, Mallikarjuna, Mahakaleswar, Omkareshwar, Kedarnath, Bhimshankar, Vishwanath, Trimbakeshwar, Vaidyanath (Deoghar), Ramanathaswamy, Nageshwarnath, and Grishneshwar."},
+        {"question": "What is the significance of Vaidyanath (Baba Baidyanath) Jyotirlinga?", "answer": "Vaidyanath or Baba Baidyanath is the ninth Jyotirlinga and holds immense spiritual significance. It is believed that visiting this shrine cures ailments and bestows divine blessings."},
+        {"question": "What is the mythology behind Jyotirlingas?", "answer": "According to Hindu mythology, when Lord Sati (Parvati) died, Lord Shiva became enraged and the cosmic dance of death began. To pacify him, Lord Vishnu and other deities used their powers, leading to the formation of Jyotirlingas."},
+        {"question": "Why are Jyotirlingas called 'Jyoter' (Light)?", "answer": "Jyotirlingas are called 'Jyoti' (light) because they represent the infinite radiance of Lord Shiva, the light of consciousness, and spiritual enlightenment."},
+        {"question": "When is Shravani Mela celebrated?", "answer": "Shravani Mela is celebrated during the Hindu month of Shravan (July-September). Millions of devotees gather during this period for pilgrimage and worship."},
+        {"question": "What is the significance of Shravani Mela?", "answer": "Shravani Mela is considered highly auspicious. It is believed that Lord Shiva listens to the prayers of devotees with extra compassion during this month. Pilgrims carry water from Ganga to offer at the shrine."},
+        {"question": "How many pilgrims attend Shravani Mela annually?", "answer": "Shravani Mela attracts millions of pilgrims annually, making it one of the largest pilgrimage festivals in the world."},
+        {"question": "What is the 'kanwar jatra' during Shravani Mela?", "answer": "'Kanwar Jatra' is the ritual where devotees carry decorated poles (kanwars) with water from the Ganges and walk long distances to the temples as an act of devotion."},
+        {"question": "Is Shravani Mela a procession or a festival?", "answer": "Shravani Mela is both a festival and a massive pilgrimage movement with daily processions, religious rituals, prayers, and traditional celebrations maintained over three months."},
+        {"question": "What are the main attractions during Shravani Mela?", "answer": "Main attractions include the Kanwar Jatra (pilgrimage with water), temple worship, night processions, cultural programs, and fairs showcasing local culture and traditions."},
+        {"question": "Is it safe to visit during Shravani Mela?", "answer": "While Shravani Mela is generally safe, the massive crowds can be challenging. Taking precautions for health, safety, and belongings is recommended."},
+        {"question": "What is the history of Deoghar?", "answer": "Deoghar has been a significant pilgrimage destination for centuries. It gained prominence with the establishment of Baba Baidyanath Temple and has been an important center of Shiva worship."},
+        {"question": "What does 'Deoghar' mean?", "answer": "'Deoghar' comes from 'Deo' (God) and 'Ghar' (House), literally meaning 'House of God', reflecting its status as a sacred temple city."},
+        {"question": "What is the population of Deoghar?", "answer": "Deoghar city has a population of approximately 150,000-200,000, though during Shravani Mela, it swells to millions of pilgrims."},
+        {"question": "What is the climate of Deoghar?", "answer": "Deoghar has a subtropical climate. Summers are hot (March-June), monsoons are heavy (July-September), and winters are mild (October-February)."},
+        {"question": "What local festivals are celebrated in Deoghar besides Shravani Mela?", "answer": "Other important festivals include Mahashivratri (February-March), Durga Puja (September-October), and various regional Jharkhand festivals."},
+        {"question": "What is the local cuisine of Deoghar?", "answer": "Deoghar's local cuisine includes Litti-Chokha, Chikhalwali, various Jharkhand sweets including Deoghar Peda, and traditional rice dishes."},
+        {"question": "What is the spiritual significance of Deoghar?", "answer": "Deoghar is considered one of the most sacred pilgrimage destinations in India due to the presence of Baba Baidyanath Jyotirlinga and other important temples."}
+      ],
+      "hi": [
+        {"question": "ज्योतिर्लिंग क्या है?", "answer": "ज्योतिर्लिंग भगवान शिव का एक पवित्र मंदिर है, जिसे लिंग (दिव्य ऊर्जा का ब्रह्मांडीय प्रतीक) द्वारा दर्शाया जाता है। यह प्रकाश और शक्ति के अपने मौलिक रूप में भगवान शिव की अभिव्यक्ति को दर्शाता है।"},
+        {"question": "भारत में कितने ज्योतिर्लिंग हैं?", "answer": "भारत के विभिन्न क्षेत्रों में 12 पवित्र ज्योतिर्लिंग फैले हुए हैं, जिनमें से प्रत्येक का अनोखा धार्मिक महत्व और किंवदंतियां हैं।"},
+        {"question": "भारत में 12 ज्योतिर्लिंग कौन से हैं?", "answer": "12 ज्योतिर्लिंग हैं: सोमनाथ, मल्लिकार्जुन, महाकालेश्वर, ओंकारेश्वर, केदारनाथ, भीमशंकर, विश्वनाथ, त्र्यंबकेश्वर, वैद्यनाथ (देवघर), रामनाथस्वामी, नागेश्वरनाथ और गृष्णेश्वर।"},
+        {"question": "वैद्यनाथ (बाबा बैद्यनाथ) ज्योतिर्लिंग का क्या महत्व है?", "answer": "वैद्यनाथ या बाबा बैद्यनाथ नौवां ज्योतिर्लिंग है और अत्यंत आध्यात्मिक महत्व रखता है। माना जाता है कि इस मंदिर में जाने से बीमारियां ठीक होती हैं और दिव्य आशीर्वाद मिलता है।"},
+        {"question": "ज्योतिर्लिंगों के पीछे की पौराणिक कथा क्या है?", "answer": "हिंदू पौराणिक कथाओं के अनुसार, जब देवी सती (पार्वती) की मृत्यु हुई, तो भगवान शिव क्रोधित हो गए और मृत्यु का संवेदनशील नृत्य शुरू हुआ। उन्हें शांत करने के लिए, भगवान विष्णु और अन्य देवताओं ने अपनी शक्तियों का उपयोग किया, जिससे ज्योतिर्लिंगों का निर्माण हुआ।"},
+        {"question": "ज्योतिर्लिंगों को 'ज्योति' (प्रकाश) क्यों कहा जाता है?", "answer": "ज्योतिर्लिंगों को 'ज्योति' (प्रकाश) कहा जाता है क्योंकि वे भगवान शिव की अनंत दीप्ति, चेतना का प्रकाश और आध्यात्मिक ज्ञान का प्रतिनिधित्व करते हैं।"},
+        {"question": "श्रावणी मेला कब मनाया जाता है?", "answer": "श्रावणी मेला हिंदू महीने श्रावण (जुलाई-सितंबर) के दौरान मनाया जाता है। लाखों भक्त इस अवधि के दौरान तीर्थ यात्रा और पूजा के लिए इकट्ठा होते हैं।"},
+        {"question": "श्रावणी मेला का क्या महत्व है?", "answer": "श्रावणी मेला को अत्यंत शुभ माना जाता है। माना जाता है कि भगवान शिव इस महीने में भक्तों की प्रार्थनाओं को अतिरिक्त करुणा के साथ सुनते हैं। तीर्थयात्री गंगा से पानी ले जाते हैं और मंदिर में अर्पित करते हैं।"},
+        {"question": "श्रावणी मेला में सालाना कितने तीर्थयात्री शामिल होते हैं?", "answer": "श्रावणी मेला सालाना लाखों तीर्थयात्रियों को आकर्षित करता है, जिससे यह दुनिया के सबसे बड़े तीर्थ मेलों में से एक है।"},
+        {"question": "श्रावणी मेला के दौरान 'कांवर जात्रा' क्या है?", "answer": "'कांवर जात्रा' एक अनुष्ठान है जहाँ भक्त गंगा से पानी के साथ सजाए गए डंडे (कांवर) ले जाते हैं और मंदिरों तक लंबी दूरी तक चलते हैं।"},
+        {"question": "क्या श्रावणी मेला एक जुलूस है या एक त्यौहार?", "answer": "श्रावणी मेला एक त्यौहार और एक विशाल तीर्थ यात्रा दोनों है जिसमें दैनिक जुलूस, धार्मिक अनुष्ठान, प्रार्थनाएं और तीन महीने तक चलने वाले परंपरागत समारोह होते हैं।"},
+        {"question": "श्रावणी मेला के दौरान मुख्य आकर्षण क्या हैं?", "answer": "मुख्य आकर्षणों में कांवर जात्रा (पानी के साथ तीर्थ यात्रा), मंदिर पूजा, रात के जुलूस, सांस्कृतिक कार्यक्रम और स्थानीय संस्कृति और परंपराओं को प्रदर्शित करने वाले मेले शामिल हैं।"},
+        {"question": "क्या श्रावणी मेला के दौरान जाना सुरक्षित है?", "answer": "जबकि श्रावणी मेला आमतौर पर सुरक्षित है, भारी भीड़ चुनौतीपूर्ण हो सकती है। स्वास्थ्य, सुरक्षा और सामग्री के लिए सावधानियां लेना अनुशंसित है।"},
+        {"question": "देवघर का इतिहास क्या है?", "answer": "देवघर सदियों से एक महत्वपूर्ण तीर्थ स्थल रहा है। बाबा बैद्यनाथ मंदिर की स्थापना के साथ इसे प्रमुखता आई और यह शिव पूजा का एक महत्वपूर्ण केंद्र बन गया।"},
+        {"question": "देवघर' का अर्थ क्या है?", "answer": "'देवघर' 'देव' (भगवान) और 'घर' (घर) से आता है, जिसका अर्थ शाब्दिक रूप से 'भगवान का घर' है, जो इसके एक पवित्र मंदिर शहर के रूप में स्थिति को दर्शाता है।"},
+        {"question": "देवघर की जनसंख्या कितनी है?", "answer": "देवघर शहर की जनसंख्या लगभग 150,000-200,000 है, हालांकि श्रावणी मेला के दौरान, यह लाखों तीर्थयात्रियों तक सूज जाती है।"},
+        {"question": "देवघर की जलवायु क्या है?", "answer": "देवघर की जलवायु उष्णकटिबंधीय है। गर्मी गर्म (मार्च-जून), मानसून भारी (जुलाई-सितंबर) और सर्दियां हल्की (अक्टूबर-फरवरी) होती हैं।"},
+        {"question": "श्रावणी मेला के अलावा देवघर में कौन से स्थानीय त्यौहार मनाए जाते हैं?", "answer": "अन्य महत्वपूर्ण त्यौहारों में महाशिवरात्रि (फरवरी-मार्च), दुर्गा पूजा (सितंबर-अक्टूबर) और विभिन्न क्षेत्रीय झारखंड त्यौहार शामिल हैं।"},
+        {"question": "देवघर का स्थानीय भोजन क्या है?", "answer": "देवघर का स्थानीय व्यंजन लिट्टी-चोखा, चिखलवाली, विभिन्न झारखंड मिठाइयां जिसमें देवघर पेड़ा भी शामिल है और परंपरागत चावल के व्यंजन हैं।"},
+        {"question": "देवघर का आध्यात्मिक महत्व क्या है?", "answer": "देवघर को भारत के सबसे पवित्र तीर्थ स्थलों में से एक माना जाता है क्योंकि यहाँ बाबा बैद्यनाथ ज्योतिर्लिंग और अन्य महत्वपूर्ण मंदिर हैं।"}
+      ]
+    }
+  },
+  "common_questions": {
+    "en": [
+      {"question": "How do I reach Deoghar?", "answer": "Deoghar can be reached by train (via Deoghar Railway Station), bus (from nearby cities), flight (via Patna or Darbhanga airports), or personal vehicle."},
+      {"question": "What is the best time to visit Deoghar?", "answer": "October-March offers pleasant weather. However, July-September (Shravani Mela) is peak pilgrimage season with massive pilgrim gatherings."},
+      {"question": "How long should I spend in Deoghar?", "answer": "A minimum of 2-3 days is recommended to visit main temples, water bodies, and nearby attractions. Extend to 5-7 days for a comprehensive pilgrimage experience."},
+      {"question": "Is Deoghar safe for tourists?", "answer": "Yes, Deoghar is generally safe for tourists and pilgrims. It is a well-established pilgrimage destination with good infrastructure."},
+      {"question": "What currency is used in Deoghar?", "answer": "Indian Rupee (INR) is the currency. ATMs and banks are available in central areas."},
+      {"question": "Can I hire a guide for temple tours?", "answer": "Yes, local guides are available and can enhance your understanding of the temples' history and spiritual significance."},
+      {"question": "Is vegetarian food easily available?", "answer": "Yes, being a pilgrimage site, vegetarian food is abundantly available in all restaurants and eateries."}
+    ],
+    "hi": [
+      {"question": "मैं देवघर कैसे पहुंच सकता हूँ?", "answer": "देवघर ट्रेन (देवघर रेलवे स्टेशन के माध्यम से), बस (पास के शहरों से), उड़ान (पटना या दरभंगा हवाई अड्डों के माध्यम से) या व्यक्तिगत वाहन से पहुंचा जा सकता है।"},
+      {"question": "देवघर के लिए सबसे अच्छा समय क्या है?", "answer": "अक्टूबर-मार्च सुखद मौसम प्रदान करता है। हालांकि, जुलाई-सितंबर (श्रावणी मेला) पीक तीर्थ यात्रा का मौसम है।"},
+      {"question": "मुझे देवघर में कितना समय बिताना चाहिए?", "answer": "मुख्य मंदिरों, जल निकायों और आस-पास के आकर्षणों में जाने के लिए न्यूनतम 2-3 दिन अनुशंसित हैं।"},
+      {"question": "क्या देवघर पर्यटकों के लिए सुरक्षित है?", "answer": "हाँ, देवघर सामान्यतः पर्यटकों और तीर्थयात्रियों के लिए सुरक्षित है।"},
+      {"question": "देवघर में कौन सी मुद्रा का प्रयोग किया जाता है?", "answer": "भारतीय रुपये (INR) मुद्रा है। केंद्रीय क्षेत्रों में ATM और बैंक उपलब्ध हैं।"},
+      {"question": "क्या मैं मंदिर पर्यटन के लिए गाइड किराए पर ले सकता हूँ?", "answer": "हाँ, स्थानीय गाइड उपलब्ध हैं और मंदिरों के इतिहास और आध्यात्मिक महत्व की समझ बढ़ा सकते हैं।"},
+      {"question": "क्या शाकाहारी भोजन आसानी से उपलब्ध है?", "answer": "हाँ, एक तीर्थ स्थल होने के कारण, सभी रेस्तरां और खान-पान की दुकानों में शाकाहारी भोजन बहुतायत में उपलब्ध है।"}
+    ]
+  }
+}
