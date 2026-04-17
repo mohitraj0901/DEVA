@@ -1,0 +1,35 @@
+# ======================
+# Backend (Python)
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# ======================
+# Frontend (Node)
+# ======================
+node_modules/
+dist/
+dist-ssr/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================
+# System / Editor
+# ======================
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
