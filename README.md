@@ -85,7 +85,7 @@ DEVA/
 
 ## 📚 Inspiration
 
-This project is inspired by the **VATIKA: Varanasi Tourism Question Answering System (FIRE 2025), which focuses on building domain-specific multilingual QA systems for tourism.
+This project is inspired by the **VATIKA: Varanasi Tourism Question Answering System (FIRE 2025)**, which focuses on building domain-specific multilingual QA systems for tourism.
 
 DEVA adapts a similar approach for Deoghar by using a structured dataset and efficient retrieval-based techniques to provide accurate and fast responses.
 
